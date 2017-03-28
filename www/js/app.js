@@ -3,7 +3,7 @@ var app = angular.module('auto-maxx-otd', ['ionic', 'ionic.cloud', 'ngCordova' ]
 app.config(function($ionicCloudProvider, $compileProvider, $ionicConfigProvider){
   $ionicCloudProvider.init({
     "core": {
-      "app_id": "fb4d4a71}"
+      "app_id": "fb4d4a71"
     },
     "push": {
       "sender_id": "619003736575",
@@ -45,11 +45,6 @@ app.run(function($ionicPlatform, $ionicPush, currentUserService) {
     if (window.StatusBar) {
       // org.apache.cordova.statusbar required
       StatusBar.styleDefault();
-    }
-    if (window.indexedDB) {
-       console.log("I'm in WKWebView!");
-    } else {
-       console.log("I'm in UIWebView");
     }
   });
 });

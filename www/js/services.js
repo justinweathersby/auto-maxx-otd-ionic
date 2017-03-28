@@ -112,7 +112,7 @@ app.service('dealerService', function($http, $ionicLoading, currentUserService, 
     //-- Get Current User Object
     // localforage.getItem('currentUser').then(function(value){
     //   currentUserService = value;
-      console.log("SUCCESS::getDealership::currentUserService::" + JSON.stringify(currentUserService));
+      // console.log("SUCCESS::getDealership::currentUserService::" + JSON.stringify(currentUserService));
     // }).catch(function(err) {console.log("GET ITEM ERROR::LoginCtrl::currentUser", JSON.stringify(err));});
 
     return $http({ method: 'GET',
