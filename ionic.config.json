@@ -1,0 +1,12 @@
+{
+  "name": "auto-maxx-otd",
+  "app_id": "fb4d4a71",
+  "gulpStartupTasks": [
+    "sass",
+    "watch"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*"
+  ]
+}
