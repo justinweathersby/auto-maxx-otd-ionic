@@ -135,7 +135,7 @@ $scope.openHomeModal = function() {
 $scope.openInventoryModal = function(){
   var hideSheet = $ionicActionSheet.show({
     buttons: [
-      { text: 'New Inventory' },
+      { text: 'Inventory' },
       { text: 'Used Inventory' },
       { text: 'Find Parts'}
     ],

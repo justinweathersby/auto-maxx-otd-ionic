@@ -6,7 +6,7 @@ app.config(function($ionicCloudProvider, $compileProvider, $ionicConfigProvider)
       "app_id": "fb4d4a71"
     },
     "push": {
-      "sender_id": "619003736575",
+      "sender_id": "459377758192",
       "pluginConfig": {
         "ios": {
           "badge": true,
